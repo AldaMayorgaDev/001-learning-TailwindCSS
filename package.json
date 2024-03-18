@@ -1,0 +1,27 @@
+{
+  "name": "001-learning-tailwind",
+  "version": "1.0.0",
+  "description": "Aprendiendo Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailDev" : "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AldaMayorgaDev/001-learning-TailwindCSS.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "CSS"
+  ],
+  "author": "Aldahir Mayorga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldaMayorgaDev/001-learning-TailwindCSS/issues"
+  },
+  "homepage": "https://github.com/AldaMayorgaDev/001-learning-TailwindCSS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
